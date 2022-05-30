@@ -2,6 +2,8 @@
 
 ## Front-End | Git e GitHub - Exercicio em dupla
 
+
+
 <details>
   <summary>Membro 1 - Criar repositório</summary>
   
@@ -20,7 +22,11 @@
   
   - Passo 1: Criar um arquivo `README.md` e colocar o seguinte conteúdo:
     ```markdown
-    # Git e GitHub - Exercicios
+    # Git e GitHub - Exercicios   
+
+    ## Dupla:
+    - Nome do integrante 1: [GitHub](https://github.com/<usuario>)
+    - Nome do integrante 2: [GitHub](https://github.com/<usuario>)
 
     ### Confingurações do Git
     - git help
