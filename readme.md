@@ -90,24 +90,64 @@
   - Passo 1: Acessar o repositório do membro 1
   - Passo 2: Vai selecionar a opção Pull Request
   - Passo 3: Depois clicar em `New pull request`, botão verde.
-  - Passo 4: 
-
+  - Passo 4: `base` e `head` são os repositórios que serão unidos.
+    - base é o repositório principal, do membro 1
+    - head é a branch do membro 2
+  - Passo 5: Clicar em `Create pull request`
+  - Passo 6: Adicionar um titulo e uma mensagem para o pull request
+  - Passo 7: Clicar em `Create pull request` novamente
 </details>
 
 <details>
-  <summary>6. SSH</summary>  
-
-  > Secure Shell é um protocolo de rede criptográfico para operação de serviços de rede de forma segura sobre uma rede insegura. O melhor exemplo de aplicação conhecido é para login remoto de utilizadores a sistemas de computadores.
+  <summary>Membro 1 - Aceitando o Pull request</summary>
   
-  - Gerar chave pública e privada [link](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
+  > Antes de aceitar o pull request, o membro 1 deve validar as alterações.
 
-  ![](./assets/11.png)
-  
+  > Essa validação é chamada de Code Review.
+
+  - Code Review: 
+    > É processo de validar as alterações feitas pelo membro 2. Podendo colocar comentários e aprovar ou rejeitar as alterações.
+
+  - Passo 1: Acessar o repositório do membro 1
+  - Passo 2: Vai selecionar a opção Pull Request
+  - Passo 3: Selecionar o `Pull request` aberto pelo membro 2.
+  - Passo 4: Realizar o Code Review
+    - Adicionar comentários, caso necessário
+    - Selecionar a opção `Approve` ou `Reject`      
 </details>
 
--------------------------------
-Referências
- - [Mini curso de Git](https://minicursogit.github.io/#/)
- - [GIT CHEAT SHEET](https://education.github.com/git-cheat-sheet-education.pdf)
+<details>
+  <summary>Membro 1 - Atualizando a branch local</summary>
+  
+  - git pull
+    > Atualiza as alterações do repositório remoto para o repositório local
+
+  - Passo 1: Fazer o checkout para a branch principal `main`
+  - Passo 2: Executar o comando git pull no terminal
+    ```bash
+    git pull    
+    ```
+  - Passo 3: Verificar se as alterações aparecenram no repositório local
+</details>
+
+<details>
+  <summary>Membro 2 - Atualizando a branch local</summary>
+  
+  - git checkout
+    > Faz o checkout da branch local para a branch remota
+    ```bach
+    # branch local é a main
+    git checkout <branch-local>
+    ```
+  - Passo 1: Fazer o checkout para a branch principal `main`
+    ```bash
+    git checkout main
+    ```
+  - Passo 2: Executar o comando git pull
+    ```bash
+    git pull
+    ```
+  - Passo 3: Verificar se as alterações aparecenram no repositório local
+</details>
 
 ###### tags: `Git` `GitHub` `SSH` `Repositórios`
