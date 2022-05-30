@@ -134,4 +134,23 @@
   - Passo 3: Verificar se as alterações aparecenram no repositório local
 </details>
 
+<details>
+  <summary>Realizando Fork</summary>
+  
+  - O fork:
+    > É um repositório que é criado a partir de um outro repositório.
+
+  - Passo 1: Acessar o repositório `https://github.com/digital-house-brasil/debugger`
+    > Clique aqui: [Repositório](https://github.com/digital-house-brasil/debugger)
+  - Passo 2: Clicar em `Fork`
+  - Passo 3: Clicar em `Create fork`
+  - Passo 4: Clonar o repositório
+    ```bash
+    git clone <link-do-repositorio>
+    ```
+  - Passo 5: Editar o título `Como debugar seu código` para `Debugar seu código`
+  - Passo 6: Subir as alterações
+  - Passo 7: Realizar o PR
+</details>
+
 ###### tags: `Git` `GitHub` `Repositórios`
