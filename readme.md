@@ -50,7 +50,7 @@
   - Passo 2: Realizando o clone do repositório do integrante 1
   - Passo 3: Criar uma nova branch com o comando abaixo:
     ```bash
-    git checkout -b <nome da branch>
+    git checkout -b feature/comandos-basicos
     ```
     > o Comando `git checkout -b` cria uma nova branch
   - Passo 4: Adicione esse conteudo no `README.md`, colocando abaixo do existente.
