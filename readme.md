@@ -1,4 +1,4 @@
-![](./assets/hd-header.png)
+![](./hd-header.png)
 
 ## Front-End | Git e GitHub - Exercicio em dupla
 
@@ -29,29 +29,7 @@
       > Lista de configurações do Git
     - git config --global user.name "Nome do usuário"
       > Configura o nome do usuário
-    - git config --global user.email "Seu email"
-      > Configura o email do usuário    
-    ```
-  - Passo 2: git add . para adicionar o arquivo
-  - Passo 3: git commit -m "Mensagem" para salvar as alterações
-  - Passo 4: git push origin main para enviar as alterações para o repositório remoto 
-
-</details>
-
-<details>
-  <summary>Membro 2 - Clonando repositório </summary>
-
-  - Passo 1: Acessar o repositório do membro 1
-  - Passo 2: Escolher a opção `ssh` e copiar o link do repositório
-  - Passo 3: Clonar o repositório no seu computador utilizando o comando abaixo:
-    ```bash
-    git clone <link do repositório>
-    ```
-  - Passo 4: Criar uma nova branch usando o comando abaixo:
-    ```bash
-    git checkout -b feature/comandos-basicos
-    ``` 
-
+    - git config --global user.email "SeuRealizando
   > OBS: O comando `git checkout -b` é usado para criar uma nova branch.
 </details>
 
