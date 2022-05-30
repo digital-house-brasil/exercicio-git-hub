@@ -5,7 +5,7 @@
 
 
 <details>
-  <summary>Membro 1 - Criar repositório</summary>
+  <summary>Integrante 1 - Criar repositório</summary>
   
   - Passo 1: Acessar seu GitHub
   - Passo 2: Criar um repositório público com o seguinte nome "exercicio-git-hub"
@@ -18,7 +18,7 @@
 </details>
 
 <details>
-  <summary>Membro 1 - Criando arquivo </summary>
+  <summary>Integrante 1 - Criando arquivo </summary>
   
   - Passo 1: Criar um arquivo `README.md` e colocar o seguinte conteúdo:
     ```markdown
@@ -40,7 +40,7 @@
 </details>
 
 <details>
-  <summary>Membro 2 - Alterando arquivo README.md</summary>
+  <summary>Integrante 2 - Alterando arquivo README.md</summary>
 
   - Passo 1: Adicione esse conteudo no `README.md`, colocando abaixo do existente.
     ```markdown
@@ -65,43 +65,43 @@
 </details>
 
 <details>
-  <summary>Membro 2 - Realizando Pull request</summary>
+  <summary>Integrante 2 - Realizando Pull request</summary>
   
-  > O Pull request é uma solicitação de mudanças para um repositório principal que é administrada pelo membro 1. O membro 1 é capaz de validar as alterações e realizar o `merge` do repositório principal.
+  > O Pull request é uma solicitação de mudanças para um repositório principal que é administrada pelo Integrante 1. O Integrante 1 é capaz de validar as alterações e realizar o `merge` do repositório principal.
 
   > Merge é o processo de unir duas ou mais branches, ou seja, juntar duas ou mais branches em uma única branch.
 
-  - Passo 1: Acessar o repositório do membro 1
+  - Passo 1: Acessar o repositório do Integrante 1
   - Passo 2: Vai selecionar a opção Pull Request
   - Passo 3: Depois clicar em `New pull request`, botão verde.
   - Passo 4: `base` e `head` são os repositórios que serão unidos.
-    - base é o repositório principal, do membro 1
-    - head é a branch do membro 2
+    - base é o repositório principal, do Integrante 1
+    - head é a branch do Integrante 2
   - Passo 5: Clicar em `Create pull request`
   - Passo 6: Adicionar um titulo e uma mensagem para o pull request
   - Passo 7: Clicar em `Create pull request` novamente
 </details>
 
 <details>
-  <summary>Membro 1 - Aceitando o Pull request</summary>
+  <summary>Integrante 1 - Aceitando o Pull request</summary>
   
-  > Antes de aceitar o pull request, o membro 1 deve validar as alterações.
+  > Antes de aceitar o pull request, o Integrante 1 deve validar as alterações.
 
   > Essa validação é chamada de Code Review.
 
   - Code Review: 
-    > É processo de validar as alterações feitas pelo membro 2. Podendo colocar comentários e aprovar ou rejeitar as alterações.
+    > É processo de validar as alterações feitas pelo Integrante 2. Podendo colocar comentários e aprovar ou rejeitar as alterações.
 
-  - Passo 1: Acessar o repositório do membro 1
+  - Passo 1: Acessar o repositório do Integrante 1
   - Passo 2: Vai selecionar a opção Pull Request
-  - Passo 3: Selecionar o `Pull request` aberto pelo membro 2.
+  - Passo 3: Selecionar o `Pull request` aberto pelo Integrante 2.
   - Passo 4: Realizar o Code Review
     - Adicionar comentários, caso necessário
     - Selecionar a opção `Approve` ou `Reject`      
 </details>
 
 <details>
-  <summary>Membro 1 - Atualizando a branch local</summary>
+  <summary>Integrante 1 - Atualizando a branch local</summary>
   
   - git pull
     > Atualiza as alterações do repositório remoto para o repositório local
@@ -115,7 +115,7 @@
 </details>
 
 <details>
-  <summary>Membro 2 - Atualizando a branch local</summary>
+  <summary>Integrante 2 - Atualizando a branch local</summary>
   
   - git checkout
     > Faz o checkout da branch local para a branch remota
