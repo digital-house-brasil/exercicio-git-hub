@@ -36,13 +36,24 @@
     - git config --global user.name "Nome do usuário"
       > Configura o nome do usuário
     - git config --global user.email "SeuRealizando
-  > OBS: O comando `git checkout -b` é usado para criar uma nova branch.
+    ```
+  - Passo 2: `git add .` para adicionar o arquivo
+  - Passo 3: `git commit -m "adicionado comandos para configuracao do git"` para salvar as alterações
+  - Passo 4: `git push origin main` para enviar as alterações para o repositório 
+  remoto  
 </details>
 
 <details>
   <summary>Integrante 2 - Alterando arquivo README.md</summary>
 
-  - Passo 1: Adicione esse conteudo no `README.md`, colocando abaixo do existente.
+  - Passo 1: Acessando o repositório do integrante 1
+  - Passo 2: Realizando o clone do repositório do integrante 1
+  - Passo 3: Criar uma nova branch com o comando abaixo:
+    ```bash
+    git checkout -b <nome da branch>
+    ```
+    > o Comando `git checkout -b` cria uma nova branch
+  - Passo 4: Adicione esse conteudo no `README.md`, colocando abaixo do existente.
     ```markdown
     ### Comandos básicos do Git
     - git init
@@ -58,9 +69,10 @@
     - git push origin master  
     > Envia as alterações para o repositório remoto
     ```
-  - Passo 2: `git add .` para adicionar o arquivo
-  - Passo 3: `git commit -m "Adicionado comandos basicos do git"` para salvar as alterações
-  - Passo 4: `git push origin feature/comandos-basicos` para enviar as alterações para o repositório 
+
+  - Passo 5: `git add .` para adicionar o arquivo
+  - Passo 6: `git commit -m "Adicionado comandos basicos do git"` para salvar as alterações
+  - Passo 7: `git push origin feature/comandos-basicos` para enviar as alterações para o repositório 
   remoto
 </details>
 
