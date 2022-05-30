@@ -150,4 +150,4 @@
   - Passo 3: Verificar se as alterações aparecenram no repositório local
 </details>
 
-###### tags: `Git` `GitHub` `SSH` `Repositórios`
+###### tags: `Git` `GitHub` `Repositórios`
